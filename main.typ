@@ -1,5 +1,14 @@
-#import "template.typ": template
+#import "template.typ": template-both-side
 
-#show: template.with()
+#let front = [
+  front
+]
 
-business-card-typst
+#let back = [
+  back
+]
+
+#template-both-side(
+  front,
+  back
+)
