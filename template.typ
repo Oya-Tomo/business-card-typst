@@ -8,6 +8,7 @@
     inset: 5mm,
     stroke: black,
     radius: 0pt,
+    clip: true
   )[
     #content
   ]
